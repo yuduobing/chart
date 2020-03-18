@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+//测试前端接口
+// RequestMappingget post dou支持
+
+//接收多个参数哦
+//    @RequestMapping(value = "/sale_prj/{salePrjId}?page={page}&rows={rows}", method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
+//    public @ResponseBody ResponseEntity<ContractProject> contractProject(@PathVariable long salePrjId, @PathVariable int page, @PathVariable int rows) {
+    //
+    //        ContractProject contractProject=new ContractProject();
+    //        if (projectService.getContractProject(salePrjId,page,rows,contractProject)) {
+    //            return new ResponseEntity<>(contractProject, HttpStatus.OK);
+    //        } else {
+    //            return new ResponseEntity<>(contractProject, HttpStatus.FAILED_DEPENDENCY);
+    //        }
+    //    }
+    //————————————————@RequestHeader("id") String id
+    //1种接收式不是路径中的参收
+    //    @RequestMapping("/jiekou")
+    //    @ResponseBody
+    //    public Map<String,Object> jiekou(HttpServletRequest request){
+    //
+    //        String fuserid=request.getParameter("id");
+    //2跳转
+
+    //
+    //    /**
+    //     *通过一个bean来接收
+    //     * @param user
+    //     * @return
+    //     */
+    //    @RequestMapping("/addUser3")
+    //    public String addUser3(UserModel user) {
+    //        System.out.println("username is:"+user.getUsername());
+    //        System.out.println("password is:"+user.getPassword());
+    //        return "demo/index";
+
+
+</body>
+</html>
